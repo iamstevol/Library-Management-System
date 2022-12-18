@@ -7,8 +7,8 @@ import org.example.utils.Impl.BookUtilsImpl;
 
 public class Main {
     public static void main(String[] args) {
-//        BookUtilsImpl bookUtils = new BookUtilsImpl();
-//        bookUtils.readBookFile().forEach(System.out::println);
+        BookUtilsImpl bookUtils = new BookUtilsImpl();
+        bookUtils.readBookFile().forEach(System.out::println);
 
         LibrarianServiceImpl librarianService = new LibrarianServiceImpl();
 

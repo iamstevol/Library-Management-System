@@ -1,7 +1,5 @@
 package org.example.model;
 
-import org.example.enums.BookAvailability;
-
 public class Books {
     private String title;
     private String author;
